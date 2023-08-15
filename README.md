@@ -27,10 +27,10 @@ TensorFlow2 and PyTorch implementation of `ATTENTION, LEARN TO SOLVE ROUTING PRO
 
 ## Usage
 
-First move to `PyTorch` or `TensorFlow2` dir. 
+First move to `TensorFlow2` dir. 
 
 ```
-cd PyTorch
+cd TensorFlow2
 ```
 
 Then, generate the pickle file contaning hyperparameter values by running the following command.
