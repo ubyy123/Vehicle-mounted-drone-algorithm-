@@ -1,17 +1,13 @@
-# CVRP solver with Multi-Head Attention
+# Vehicle-mounted drone algorithm
 
-TensorFlow2 and PyTorch implementation of `ATTENTION, LEARN TO SOLVE ROUTING PROBLEMS!`(Kool et al. 2019)(https://arxiv.org/pdf/1803.08475.pdf)
+![image](https://github.com/ubyy123/Vehicle-mounted-drone-algorithm-/assets/106729728/1e625136-0ede-4b3e-98b3-a3c209bae8a5)
 
-<img src="https://user-images.githubusercontent.com/51239551/88506411-cd450f80-d014-11ea-84eb-12e7ab983780.gif" width="650"/>
+![image](https://github.com/ubyy123/Vehicle-mounted-drone-algorithm-/assets/106729728/9cae6f9c-76d6-4539-bc0b-7887379865f8)
 
-<img src="https://user-images.githubusercontent.com/51239551/88507610-bfdd5480-d017-11ea-99de-e9850e6be0db.gif" width="650"/>
+![image](https://github.com/ubyy123/Vehicle-mounted-drone-algorithm-/assets/106729728/830fbade-3669-4106-a952-379ab086cba8)
 
-<img src="https://user-images.githubusercontent.com/51239551/89150677-0ee83400-d59a-11ea-90ed-2852dc1ddd4b.gif" width="650"/>
 
 ## Description
-
-[Slide Share -- CVRP solver with Multi Heads Attention --](https://www.slideshare.net/RINTAROSATO4/cvrp-solver-with-multihead-attention)
-
 
 ## Dependencies
 
@@ -68,6 +64,7 @@ python plot.py -p Weights/***.pt -t ../OpenData/A-n***.txt -b 128
 One example would be `cd PyTorch && python plot.py -p Weights/VRP50_train_epoch19.pt -t ../OpenData/A-n45-k7.txt -d sampling -b 128` 
 
 ## Reference
+* https://github.com/Rintarooo/VRP_DRL_MHA
 * https://github.com/wouterkool/attention-learn-to-route
 * https://github.com/d-eremeev/ADM-VRP
 * https://qiita.com/ohtaman/items/0c383da89516d03c3ac0
